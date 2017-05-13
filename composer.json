@@ -1,5 +1,5 @@
 {
-    "name": "georgeff/illuminate-event",
+    "name": "georgeff/event",
     "description": "Abstraction of the illuminate/events package",
     "type": "library",
     "license": "MIT",
