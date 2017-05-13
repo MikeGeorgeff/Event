@@ -1,0 +1,31 @@
+{
+    "name": "georgeff/illuminate-event",
+    "description": "Abstraction of the illuminate/events package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Georgeff",
+            "email": "mikegeorgeff3@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/contracts": "5.4.*",
+        "illuminate/support": "5.4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Georgeff\\Event\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Georgeff\\Event\\Test\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
