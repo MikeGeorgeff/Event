@@ -10,11 +10,11 @@
         }
     ],
     "require": {
-        "illuminate/contracts": "5.4.*",
-        "illuminate/support": "5.4.*"
+        "illuminate/contracts": "~5.4|~5.5",
+        "illuminate/support": "~5.4|~5.5"
     },
     "require-dev": {
-        "phpunit/phpunit": "~5.0",
+        "phpunit/phpunit": "~6.0",
         "mockery/mockery": "0.9.*"
     },
     "autoload": {
